@@ -25,7 +25,7 @@ ECDSA keys' size is much smaller comparing to RSA with the same security level g
 
 <u>**Exercise 1:**</u> 
 
->  _Check out an open source project which implements ECDSA and try to use this first. After that, take a look at its implementation._
+>  _Check out an open source project which implements ECDSA in Python and try to use this first. After that, take a quick look at its implementation._
 
 #### 2. ECIES
 
@@ -33,4 +33,24 @@ ECDSA keys' size is much smaller comparing to RSA with the same security level g
 
 #### 3. RSA
 
-> Not started yet
+<https://en.wikipedia.org/wiki/RSA_(cryptosystem)>
+
+<https://www.khanacademy.org/computing/computer-science/cryptography>
+
+RSA (Rivest-Shamir-Adleman) is one of the first asymmetric encryption algorithm (since 1978).
+
+RSA's expression:
+
+$(m^e)^d \equiv m (mod \space n) \space  (0 \leqslant m<n)​$
+
+The pubic key is represented by `n` and `e`; and, the private is represented by `d`. m represents the message. 
+
+This alogrithm includes 4 steps: key generation, key distribution, encryption and decryption.
+
+<u>**Exercise 2:**</u>
+
+> Use a library which implements RSA algorithm in C and try to encrypt/decrypt and sign/verify a message
+
+<u>**Exercise 3:**</u>
+
+> Implement RSA algorithm in C
