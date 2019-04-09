@@ -76,7 +76,7 @@ This alogrithm includes 4 steps: key generation, key distribution, encryption an
 ### Exercise 2
 
 ```
-Use a library which implements RSA algorithm and try to generate keys, encrypt/decrypt, and sign/verify a message with CLI
+Use a software which implements RSA algorithm and try to generate keys, encrypt/decrypt, and sign/verify a message with CLI
 ```
 
 *Links:*
@@ -106,6 +106,10 @@ Implement RSA algorithm using RFC-8017 in C
 >  [1]. Journey into cryptography
 >
 > https://www.khanacademy.org/computing/computer-science/cryptography
+>
+> [2]. RFC-8017
+>
+> https://tools.ietf.org/html/rfc8017
 >
 > [2]. LibTomCrypt
 >
