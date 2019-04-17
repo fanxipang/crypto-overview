@@ -117,6 +117,50 @@ Implement RSA algorithm using RFC-8017 in C
 
 
 
-## 3. ECIES
+## 3. ECIES (Elliptic Curve Integrated Encryption Scheme)
 
-> Not started yet
+*Links:*
+
+> [1]. Elliptic Curve Integrated Encryption Scheme
+>
+> https://www.cryptopp.com/wiki/Elliptic_Curve_Integrated_Encryption_Scheme
+>
+> [2]. A Comparison of the Standardized Versions of ECIES
+>
+> http://digital.csic.es/bitstream/10261/32674/1/Gayoso_A%20Comparison%20of%20the%20Standardized%20Versions%20of%20ECIES.pdf)
+>
+> [3]. A Proposal for an ISO Standard for Public Key Encryption
+>
+> https://www.shoup.net/papers/iso-2_1.pdf
+
+ECC (Elliptic Curve Cryptography) can be used for encryption, generating digital signature and key exchanges. ECIES is an algorithm related to encryption which bases on ECC.
+
+The following are several fundamental concepts in cryptography:
+
+1. *Symmetric key encryption*: a symmetric key encryption schema consist two algorithms: encryption and decryption.
+2. *Public-key encryption*: a public-key encryption schema consist three algorithms: key generation, encryption and decryption.
+3. *Key encapsulation*: uses public-key cryptography to encrypt a key that can then be used to encrypt the actual payload using symmetric key cryptography.
+4. *Data encapsulation*: provides a "digital envelope" that protects the secrecy and integrity of data using symmetric-key cryptographic techniques
+5. *Hybrid encryption*: compose a secure key encapsulation mechanism and a secure data encapsulation mechanism so as to obtain a secure public-key encryption scheme.
+
+### Exercise 5
+
+```
+Find an open source project implementing ECIES and play around with it
+```
+
+*Links*
+
+> https://github.com/sigp/ecies-parity
+
+### Exercise 6
+
+```
+Read RFC of ECC
+```
+
+*Links*
+
+> Fundamental Elliptic Curve Cryptography Algorithms (RFC-6090)
+>
+> https://tools.ietf.org/html/rfc6090>

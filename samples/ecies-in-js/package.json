@@ -1,0 +1,20 @@
+{
+  "name": "ecies-demo",
+  "version": "1.0.0",
+  "description": "A demo of using a lib implements ECIES",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crypto-overview",
+    "asymmetric",
+    "encryption",
+    "ecies"
+  ],
+  "author": "Van Huong",
+  "license": "ISC",
+  "dependencies": {
+    "ecies-parity": "^0.1.0"
+  }
+}
