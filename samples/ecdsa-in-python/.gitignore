@@ -1,0 +1,9 @@
+.venv/
+
+*.pyc
+__pycache__/
+
+*private.pem
+*public.pem
+*message.txt
+*signature
