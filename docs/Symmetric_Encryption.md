@@ -37,10 +37,17 @@ AES follows a block cipher algorithm that it splits the plain text into small bl
 
 ```
 Practice using AES with OpenSSL
-> Link: https://youtu.be/zqbyTYMAKqI
 ```
 
+_Links_
 
+> Crypto & Block Cipher Modes (OpenSSL, AES 128, ECB, CBC)
+>
+> <https://youtu.be/t0pREiDO7_g>
+>
+> How to use OpenSSL to encrypt/decrypt files?
+>
+> <https://stackoverflow.com/questions/16056135/how-to-use-openssl-to-encrypt-decrypt-files>
 
 ### Excercise 2
 
