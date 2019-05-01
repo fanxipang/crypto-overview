@@ -1,0 +1,3 @@
+Hello SHA1
+Hello SHA256
+Hello SHA512
