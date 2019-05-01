@@ -2,8 +2,6 @@
 
 cryptography at a glance with code samples.
 
-<center>Collected by Van Huong (vnnvanhuong@gmail.com)</center>
-
 <small>**Note:** *It's recommended to use a tool which is able to display Katex and HTML such as Typora*</small>
 
 ## 1. Asymmetric Encryption
